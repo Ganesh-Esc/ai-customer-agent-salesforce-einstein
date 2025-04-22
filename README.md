@@ -35,13 +35,7 @@ User: Check the weather for tomorrow
 Bot: Temperatures will be between 22°C (71°F) and 30°C (86°F) at Coral Cloud Resorts.
 
 
-## 📷 Screenshots (Optional - Add Yours)
 
-| Agent Setup | Weather Forecast via Apex |
-|-------------|----------------------------|
-| ![agent-setup](screenshots/agent-setup.png) | ![weather-api](screenshots/weather-api.png) |
-
----
 
 ## 🧱 Architecture Overview
 
