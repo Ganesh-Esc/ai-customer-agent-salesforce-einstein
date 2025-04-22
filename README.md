@@ -1,2 +1,50 @@
-# ai-customer-agent-salesforce-einstein
-ai-customer-agent-salesforce-einstein
+# 🧠 AI-Powered Customer Support Agent using Salesforce Einstein
+
+This project showcases a smart, AI-powered customer support chatbot built using **Salesforce Einstein** and **Agentforce**. It was developed during a hands-on workshop hosted by **GeeksforGeeks** on April 20, 2024. The agent simulates guest support for a fictional resort — Coral Cloud Resorts — and demonstrates how AI, automation, and custom logic can enhance customer service.
+
+> 💡 This is a no-code/low-code AI project, ideal for professionals looking to bridge the gap between data science, AI tools, and enterprise solutions.
+
+---
+
+## 🔧 Features Implemented
+
+- 💬 **Customer Experience Support Agent**
+  - Helps guests find and book resort experiences.
+  - Handles queries like event details (e.g. Full Moon Beach Party).
+
+- ⚙️ **Custom Actions using Flow**
+  - `Get Experience Details`: Retrieves activity descriptions.
+  - `Issue Resort Credit`: Issues resort credits to specific contacts.
+
+- 🧑‍💻 **Apex-Driven Actions**
+  - `CheckWeather`: Invokes a weather API and provides forecasts based on user-provided dates.
+
+- 🤖 **Conversational AI Integration**
+  - Uses topics, prompt templates, and a reasoning engine to guide user interactions.
+  - Built with Einstein Copilot and Agentforce Studio.
+
+---
+
+## 📷 Screenshots (Optional - Add Yours)
+
+| Agent Setup | Weather Forecast via Apex |
+|-------------|----------------------------|
+| ![agent-setup](screenshots/agent-setup.png) | ![weather-api](screenshots/weather-api.png) |
+
+---
+
+## 🧱 Architecture Overview
+
+```mermaid
+graph TD;
+    User["Customer"]
+    Chatbot["Einstein Agent"]
+    Flow["Custom Flow Actions"]
+    Apex["Apex Class: CheckWeather"]
+    SalesforceDB["Salesforce CRM Data"]
+
+    User --> Chatbot
+    Chatbot --> Flow
+    Chatbot --> Apex
+    Flow --> SalesforceDB
+    Apex --> ExternalAPI["Weather API"]
