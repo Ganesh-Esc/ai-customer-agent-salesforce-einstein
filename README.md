@@ -25,6 +25,8 @@ This project showcases a smart, AI-powered customer support chatbot built using 
 
 ---
 
+![Agent Chat Demo](ModifiedFileName_4cbb89ab.jpeg)
+
 User: Can you let me know more about the full moon beach party experience?
 Bot: The Full Moon Beach Party includes bonfire, music, and beach games...
 
