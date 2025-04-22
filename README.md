@@ -25,6 +25,16 @@ This project showcases a smart, AI-powered customer support chatbot built using 
 
 ---
 
+User: Can you let me know more about the full moon beach party experience?
+Bot: The Full Moon Beach Party includes bonfire, music, and beach games...
+
+User: Issue $100 resort credit to contact named Sofia Rodriguez
+Bot: Resort credit of $100 has been issued to Sofia Rodriguez. ID: CRD-03491
+
+User: Check the weather for tomorrow
+Bot: Temperatures will be between 22°C (71°F) and 30°C (86°F) at Coral Cloud Resorts.
+
+
 ## 📷 Screenshots (Optional - Add Yours)
 
 | Agent Setup | Weather Forecast via Apex |
